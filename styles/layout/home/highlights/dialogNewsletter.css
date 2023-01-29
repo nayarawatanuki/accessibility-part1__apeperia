@@ -2,7 +2,7 @@
   display: none;
 }
 
-.dialogNewsletter--aberto {
+.dialogNewsletter--opened {
   display: block;
 }
 

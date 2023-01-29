@@ -1,19 +1,19 @@
 // Variáveis
-var btnAbreDialog = document.querySelector('#abreDialog');
+var btnOpenDialog = document.querySelector('#openDialog');
 var dialog = document.querySelector('.dialogNewsletter');
 var dialogBody = document.querySelector('.dialogNewsletter__body');
 var dialogOverlay = document.querySelector('.dialogNewsletter-overlay');
 
 
 // Quando abrir a dialog...
-btnAbreDialog.addEventListener('click', function() {
-  dialog.classList.add('dialogNewsletter--aberto');
+btnOpenDialog.addEventListener('click', function() {
+  dialog.classList.add('dialogNewsletter--opened');
 });
 
-function fechandoDialog() {
+function closingDialog() {
   document.activeElement.blur();
-  dialog.classList.remove('dialogNewsletter--aberto');     
+  dialog.classList.remove('dialogNewsletter--opened');     
 }
 
 // Listeners
-document.querySelector('.dialogNewsletter-form__close').addEventListener('click', fechandoDialog);
+document.querySelector('.dialogNewsletter-form__close').addEventListener('click', closingDialog);
