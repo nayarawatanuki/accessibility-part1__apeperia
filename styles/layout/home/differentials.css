@@ -1,0 +1,61 @@
+.differentials-list {
+  text-align: center;
+}
+
+.differentials-item {
+  margin: 0 3em 2em 3em;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  max-width: 350px;
+  padding-left: 4em;
+}
+
+.differentials-item__title {
+  color: #4F4C4C;
+  font-size: 1.2em;
+  margin-top: .9em;
+  margin-bottom: .6em;
+
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 2.5em;
+  padding-left: 42px;
+  padding-top: .5em;
+  transform: translateX(-42px);
+  text-transform: uppercase;
+}
+
+.differentials-item__title--time {
+  background-image: url(../../../img/differentials/icon-clock.png);
+}
+
+
+.differentials-item__title--focus {
+  background-image: url(../../../img/differentials/icon-money.png);
+}
+
+
+.differentials-item__title--experts {
+  background-image: url(../../../img/differentials/icon-chemistry.png);
+}
+
+
+
+
+@media (min-width: 830px) {
+
+
+  .differentials {
+    padding-bottom: 0;
+    background-color: #f7f4f4;
+  }
+
+
+  .differentials-item {
+    margin: 0 .5em;
+    font-size: .9em;
+    max-width: 260px;
+  }
+
+}

@@ -1,0 +1,117 @@
+
+.contact-field {
+  margin: .8em auto;
+  max-width: 600px;
+  position: relative;
+}
+
+.contact-field__label:before {
+  content:'';
+  vertical-align: middle;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  background-color: #fff;
+  transform: translate(-7px, -3px);
+  border: 1px solid #7D7D7D;
+  color: transparent;
+  line-height: 1;
+  transition: .2s ease-in;
+}
+
+.contact-field__checkbox:checked + .contact-field__label:before {
+  content: 'x';
+  color: #fff;
+  background-image: radial-gradient(circle, #2DA4E7, #2F80ED);
+}
+
+.contact-field__checkbox {
+  display: none;
+}
+
+.contact-field-icone {
+  position: absolute;
+  left: -2em;
+  top: 2.5em;
+  width: 1.5em;
+}
+
+.contact-field label,
+.contact-field input,
+.contact-field textarea {
+  display: block;
+  width: 100%;
+  text-align: left;
+} 
+
+.contact-field label {
+  margin-bottom: 5px;
+  margin-left: 8px;
+} 
+
+.contact-field input,
+.contact-field textarea {
+  font-size: 1em;
+  padding: .5em;
+  min-height: 50px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  outline: 0;
+} 
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  border: 2px solid #222;
+} 
+
+.contact-field-disable {
+  background-color: #ddd;
+}
+
+.contact-field__msg, 
+.contact-form__validation {
+  margin-left: 4px;
+  margin-top: 4px;
+  font-size: .9em;
+  font-weight: bold;
+  color: #FD1242;
+  display: inline-block;
+}
+
+.contact-field .contact-field--valid {
+  border: 2px solid #219653;
+  background-color: #fff;
+  position: relative;
+}
+
+.contact-field .contact-field--validError {
+  border: 2px solid #FF0000;
+  background-color: #fff;
+  position: relative;
+}
+
+.contact-field--success:before {
+  content: '';
+  display: inline-block;
+  width: 33px;
+  height: 32px;
+  position: absolute;
+  z-index: 1;
+  right: .4em;
+  transform: translateY(112%) scale(.65);
+  background-image: url(../../../../img/contact-form/validation-success.png);
+}
+
+.contact-field--error:before {
+  content: '';
+  display: inline-block;
+  width: 33px;
+  height: 32px;
+  position: absolute;
+  z-index: 1;
+  right: .4em;
+  transform: translateY(112%) scale(.65);
+  background-image: url(../../../../img/contact-form/validation-error.png);
+}
+

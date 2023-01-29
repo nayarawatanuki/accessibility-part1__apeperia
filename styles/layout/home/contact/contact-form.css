@@ -1,0 +1,37 @@
+.contact-form {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.contact-form__validation {
+  display: block;
+  text-align: left;
+}
+
+.contact-form__button {
+  width: 100%;
+  margin: .5em 0;
+}
+
+.contact-form__button {
+  margin-top: 1em;
+  display: inline-block;
+  background: transparent;
+  color: #B72E2E;
+  border: 1px solid #B72E2E;
+  width: 100%;
+}
+
+.contact-form__button:hover,
+.contact-form__button:focus {
+  color: #fff;
+  background-color: #B72E2E;
+}
+
+.contact-form__address {
+  color: #666;
+  margin: 1em 0;
+  text-align: center;
+}
