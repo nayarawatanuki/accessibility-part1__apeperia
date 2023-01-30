@@ -40,6 +40,7 @@ li[aria-hidden='false'] { display:block ; }
 .skip-nav:focus,
 .skip-nav:hover {
   color: transparent;
+  display: block;
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -72,7 +73,6 @@ li[aria-hidden='false'] { display:block ; }
   font-family: 'Montserrat', serif;
   color: #4F4C4C;
   margin-bottom: 1em;
-  text-align: center;
   text-transform: uppercase;
 }
 

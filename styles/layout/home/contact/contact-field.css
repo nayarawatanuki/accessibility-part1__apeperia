@@ -100,7 +100,7 @@
   z-index: 1;
   right: .4em;
   transform: translateY(112%) scale(.65);
-  background-image: url(../../../../img/contact-form/validation-success.png);
+  background-image: url(../../../../img/home/contact-form/validation-success.png);
 }
 
 .contact-field--error:before {
@@ -112,6 +112,6 @@
   z-index: 1;
   right: .4em;
   transform: translateY(112%) scale(.65);
-  background-image: url(../../../../img/contact-form/validation-error.png);
+  background-image: url(../../../../img/home/contact-form/validation-error.png);
 }
 

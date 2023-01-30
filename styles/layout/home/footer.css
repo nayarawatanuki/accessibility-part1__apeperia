@@ -23,15 +23,15 @@
 }
 
 .footer-social__link--facebook {
-  background-image: url(../../../img/social/facebook.png);
+  background-image: url(../../../img/home/social/facebook.png);
 }
 
 .footer-social__link--twitter {
-  background-image: url(../../../img/social/twitter.png);
+  background-image: url(../../../img/home/social/twitter.png);
 }
 
 .footer-social__link--instagram {
-  background-image: url(../../../img/social/instagram.png);
+  background-image: url(../../../img/home/social/instagram.png);
 }
 
 .footer-menu__item {
