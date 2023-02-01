@@ -1,149 +1,148 @@
 .dialogNewsletter {
-  display: none;
+    display: none;
 }
 
 .dialogNewsletter--opened {
-  display: block;
+    display: block;
 }
 
 .dialogNewsletter__body {
-  font-size: 18px;
-  border-radius: 8px;
-  background-color: #fff;
-  border: 1px solid #8D8D8D;
-  padding: 3em 1.5em 1.5em 1.5em;
-  box-shadow: 0 0 5px rgba(0, 0, 0, .5); 
-  position: fixed;
-  display: inline-block;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%,-52%);
-  z-index: 3;
-  transition: .3s ease-in;
-  color: #222;
-  width: 300px;
-  max-width: 533px;
-  text-align: left;
+    background-color: #fff;
+    border: 1px solid #8D8D8D;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    color: #222;
+    display: inline-block;
+    font-size: 18px;
+    left: 50%;
+    max-width: 533px;
+    padding: 3em 1.5em 1.5em 1.5em;
+    position: fixed;
+    text-align: left;
+    top: 45%;
+    transform: translate(-50%, -52%);
+    transition: .3s ease-in;
+    z-index: 3;
+    width: 300px;
 }
 
 .dialogNewsletter-overlay {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .4);
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
-.overlayDialog + .dialogNewsletter {
-  display: block;
-  transform: translate(-50%,-50%);
+.overlayDialog+.dialogNewsletter {
+    display: block;
+    transform: translate(-50%, -50%);
 }
 
 .dialogNewsletter__title {
-  font-size: 1.8em;
-  line-height: 1;
+    font-size: 1.8em;
+    line-height: 1;
 }
 
 .dialogNewsletter__text {
-  font-size: 1em;
-  margin-bottom: 1.5em;
-  margin-top: 1em;
-  font-weight: normal;
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
 }
 
 .dialogNewsletter-form__label {
-  position: absolute;
-  z-index: -1;
-  left: -9999px;
+    left: -9999px;
+    position: absolute;
+    z-index: -1;
 }
 
 .dialogNewsletter-form__input {
-  font-size: 1em;
-  border-radius: 8px;
-  border: 1px solid #5E5E5E;
-  padding: 8px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  width: 100%;
-  min-width: 245px;
+    border: 1px solid #5E5E5E;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    min-width: 245px;
+    padding: 8px;
+    width: 100%;
 }
 
 .dialogNewsletter-form__button {
-  vertical-align: top;
-  text-indent: -9999px;
-  border-radius: 8px;
-  border: 1px solid #FF1242;
-  padding: 8px;
-  width: 100%;
-  height: 3.1em;
-  background: url(../../../../img/home/social/email.png) no-repeat center; 
-  transition: .2s ease-in;
+    background: url(../../../../img/home/social/email.png) no-repeat center;
+    border: 1px solid #FF1242;
+    border-radius: 8px;
+    height: 3.1em;
+    padding: 8px;
+    text-indent: -9999px;
+    transition: .2s ease-in;
+    vertical-align: top;
+    width: 100%;
 }
 
 .dialogNewsletter-form__button:hover,
 .dialogNewsletter-form__button:focus {
-  background-color: #EB5757;
-  cursor: pointer;
-  background-image: url(../../../../img/home/social/email-hover.png);
+    background-color: #EB5757;
+    background-image: url(../../../../img/home/social/email-hover.png);
+    cursor: pointer;
 }
 
 .dialogNewsletter-form__close {
-  position: absolute;
-  background-color: transparent;
-  transform: translate(50%, 50%) scale(1.4);
-  top: -5px;
-  right: 25px;
-  width: 32px;
-  height: 32px;
-  border: 0;
-  border: 1px solid;
-  overflow: hidden;
-  color: transparent;
-  font-size: 0;
+    background-color: transparent;
+    border: 0;
+    border: 1px solid;
+    color: transparent;
+    font-size: 0;
+    height: 32px;
+    overflow: hidden;
+    position: absolute;
+    top: -5px;
+    transform: translate(50%, 50%) scale(1.4);
+    right: 25px;
+    width: 32px;
 }
 
 .dialogNewsletter-form__close:before {
-  content: 'x';
-  color: #666;
-  width: 32px;
-  height: 32px;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  font-size: 20px;
-  font-weight: bold;
-
+    color: #666;
+    content: 'x';
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 32px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 32px;
+    z-index: 2;
 }
 
 .dialogNewsletter-form__close:hover:before,
 .dialogNewsletter-form__close:focus:before {
-  color: #ce3434;  
-  cursor: pointer;
+    color: #ce3434;
+    cursor: pointer;
 }
 
 @media (min-width: 830px) {
 
-  .dialogNewsletter__body {
-    width: 533px;
-  }  
+    .dialogNewsletter__body {
+        width: 533px;
+    }
 
-  .dialogNewsletter-form {
-    display: flex;
-    flex-wrap: nowrap
-  }
+    .dialogNewsletter-form {
+        display: flex;
+        flex-wrap: nowrap
+    }
 
-  .dialogNewsletter-form__input {
-    flex-basis: 80%;
-  }
+    .dialogNewsletter-form__input {
+        flex-basis: 80%;
+    }
 
-  .dialogNewsletter-form__button {
-    flex-basis: 20%;
-    height: 3.1em;
-  }
+    .dialogNewsletter-form__button {
+        flex-basis: 20%;
+        height: 3.1em;
+    }
 
 }

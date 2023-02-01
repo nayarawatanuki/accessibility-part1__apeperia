@@ -1,61 +1,59 @@
 .differentials-list {
-  text-align: center;
+    text-align: center;
 }
 
 .differentials-item {
-  margin: 0 3em 2em 3em;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  max-width: 350px;
-  padding-left: 4em;
+    display: inline-block;
+    margin: 0 3em 2em 3em;
+    max-width: 350px;
+    padding-left: 4em;
+    text-align: left;
+    vertical-align: top;
 }
 
 .differentials-item__title {
-  color: #4F4C4C;
-  font-size: 1.2em;
-  margin-top: .9em;
-  margin-bottom: .6em;
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #4F4C4C;
+    font-size: 1.2em;
+    height: 2.5em;
+    margin-bottom: .6em;
+    margin-top: .9em;
 
-  background-repeat: no-repeat;
-  background-position: left center;
-  height: 2.5em;
-  padding-left: 42px;
-  padding-top: .5em;
-  transform: translateX(-42px);
-  text-transform: uppercase;
+    padding-left: 42px;
+    padding-top: .5em;
+    text-transform: uppercase;
+    transform: translateX(-42px);
 }
 
 .differentials-item__title--time {
-  background-image: url(../../../img/home/differentials/icon-clock.png);
+    background-image: url(../../../img/home/differentials/icon-clock.png);
 }
 
 
 .differentials-item__title--focus {
-  background-image: url(../../../img/home/differentials/icon-money.png);
+    background-image: url(../../../img/home/differentials/icon-money.png);
 }
 
 
 .differentials-item__title--experts {
-  background-image: url(../../../img/home/differentials/icon-chemistry.png);
+    background-image: url(../../../img/home/differentials/icon-chemistry.png);
 }
-
-
 
 
 @media (min-width: 830px) {
 
 
-  .differentials {
-    padding-bottom: 0;
-    background-color: #f7f4f4;
-  }
+    .differentials {
+        background-color: #f7f4f4;
+        padding-bottom: 0;
+    }
 
 
-  .differentials-item {
-    margin: 0 .5em;
-    font-size: .9em;
-    max-width: 260px;
-  }
+    .differentials-item {
+        font-size: .9em;
+        margin: 0 .5em;
+        max-width: 260px;
+    }
 
 }
