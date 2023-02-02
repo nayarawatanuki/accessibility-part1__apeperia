@@ -15,7 +15,7 @@
 </br>
 
 ## :pencil: Descrição do Projeto
-O projeto **[Apeperia](https://nayarawatanuki.github.io/accessibility-part1__apeperia/)**, é uma proposta de página web para uma plataforma que fornece construção e manutenção de aplicativos.
+O projeto **[Apeperia - parte 1](https://nayarawatanuki.github.io/accessibility-part1__apeperia/)**, é uma proposta de página web para uma plataforma que fornece construção e manutenção de aplicativos.
 
 </br>Desenvolvido para o curso de **ACESSIBILIDADE WEB PARTE 1 - TORNANDO SEU FRONT-END INCLUSIVO** da plataforma [Alura](https://www.alura.com.br/).
 
@@ -67,7 +67,7 @@ Após baixar o projeto, você pode abrir com o VS Code. Para isso, abra o explor
 </br>
 
 ## :rocket: Abrir e rodar o projeto
-Caso tenha interesse em visualizar o que foi realizado: [Apeperia](https://nayarawatanuki.github.io/accessibility-part1__apeperia/) 
+Caso tenha interesse em visualizar o que foi realizado: [Apeperia - parte 1](https://nayarawatanuki.github.io/accessibility-part1__apeperia/) 
 
 Ou, caso prefira baixá-lo clicando [aqui](https://github.com/nayarawatanuki/accessibility-part1__apeperia/archive/refs/heads/main.zip).
 
